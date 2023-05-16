@@ -7,6 +7,6 @@
         public DateTime Read { get; set; }
 
         public int IncidentId { get; set; }
-        public Incident Incident { get; set; }
+        public virtual Incident Incident { get; set; }
     }
 }

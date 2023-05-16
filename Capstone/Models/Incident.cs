@@ -6,7 +6,7 @@
         public DateTime CreatedDate { get; set; }
 
         public int StudentClassroomId { get; set; }
-        public StudentClassrooms StudentClassrooms { get; set; }
+        public virtual StudentClassrooms StudentClassrooms { get; set; }
 
         public string Message { get; set; }
     }
