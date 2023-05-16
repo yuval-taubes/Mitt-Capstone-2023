@@ -10,7 +10,10 @@ namespace Capstone.Models
         public string StudentId { get; set; }
         public virtual CapstoneUser? Student { get; set; }
 
+        [ForeignKey("Classroom")]
         public int ClassroomId { get; set; }
         public virtual Classroom? Classroom { get; set; }
+
+        
     }
 }

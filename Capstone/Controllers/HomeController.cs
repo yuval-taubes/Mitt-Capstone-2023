@@ -1,4 +1,5 @@
 ﻿using Capstone.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -12,7 +13,7 @@ namespace Capstone.Controllers
         {
             _logger = logger;
         }
-
+        [Authorize(Roles = "Admin")]
         public IActionResult Index()
         {
             return View();
