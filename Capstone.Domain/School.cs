@@ -1,4 +1,4 @@
-﻿namespace Capstone.Models
+﻿namespace Capstone.Domain
 {
     public class School
     {

@@ -1,9 +1,9 @@
-﻿using Capstone.Models;
+﻿using Capstone.Domain;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Capstone.Data;
+namespace Capstone.Areas.Identity.Data;
 
 public class CapstoneContext : IdentityDbContext<CapstoneUser>
 {

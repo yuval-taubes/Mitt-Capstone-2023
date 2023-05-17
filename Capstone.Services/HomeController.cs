@@ -1,5 +1,6 @@
-﻿using Capstone.Models;
+﻿using Capstone.Domain;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
 namespace Capstone.Controllers

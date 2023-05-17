@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Capstone.Data;
-using Capstone.Models;
+using Capstone.Domain;
+using Capstone.Areas.Identity.Data;
+
 namespace Capstone
 {
     public class Program

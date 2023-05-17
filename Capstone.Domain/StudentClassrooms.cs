@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Capstone.Models
+namespace Capstone.Domain
 {
     public class StudentClassrooms
     {
